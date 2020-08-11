@@ -1,6 +1,15 @@
 # NgMoviereview
+NgMoviereview is the angular project.This contains front end part of the movie review application.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+kindly use the below data format as proxy.json, to avoid cors exception
+
+{
+    "/api/*": {
+        "target": "http://localhost:8080",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
 
 ## Development server
 
